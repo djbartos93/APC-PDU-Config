@@ -6,10 +6,35 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXFileReference section */
+		8772D52819751813007EBB92 /* pdu.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = pdu.py; sourceTree = "<group>"; };
+		8772D5291975212B007EBB92 /* auto-login.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = "auto-login.py"; sourceTree = "<group>"; };
+		8772D52B197527B4007EBB92 /* tempip.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = tempip.py; sourceTree = "<group>"; };
+		8772D52C19753F84007EBB92 /* variable-test.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = "variable-test.py"; sourceTree = "<group>"; };
+		8772D52D197548ED007EBB92 /* final-config.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = "final-config.py"; sourceTree = "<group>"; };
+		8772D52E1976D95D007EBB92 /* logtest.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = logtest.py; sourceTree = "<group>"; };
+		8772D52F1976E43C007EBB92 /* loadingtest.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = loadingtest.py; sourceTree = "<group>"; };
+		8772D5301976E7BE007EBB92 /* pdu-noout.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = "pdu-noout.py"; sourceTree = "<group>"; };
+		8772D53119786228007EBB92 /* config-only.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = "config-only.py"; sourceTree = "<group>"; };
+		8772D532197863C9007EBB92 /* reset+firmware.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = "reset+firmware.py"; sourceTree = "<group>"; };
+		8772D53319787F5A007EBB92 /* tempip-only_v1.0.0.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = "tempip-only_v1.0.0.py"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
 /* Begin PBXGroup section */
 		8772D51D197517D3007EBB92 = {
 			isa = PBXGroup;
 			children = (
+				8772D52B197527B4007EBB92 /* tempip.py */,
+				8772D5291975212B007EBB92 /* auto-login.py */,
+				8772D52819751813007EBB92 /* pdu.py */,
+				8772D53119786228007EBB92 /* config-only.py */,
+				8772D532197863C9007EBB92 /* reset+firmware.py */,
+				8772D53319787F5A007EBB92 /* tempip-only_v1.0.0.py */,
+				8772D5301976E7BE007EBB92 /* pdu-noout.py */,
+				8772D52F1976E43C007EBB92 /* loadingtest.py */,
+				8772D52E1976D95D007EBB92 /* logtest.py */,
+				8772D52D197548ED007EBB92 /* final-config.py */,
+				8772D52C19753F84007EBB92 /* variable-test.py */,
 			);
 			sourceTree = "<group>";
 		};
@@ -22,7 +47,8 @@
 			buildConfigurationList = 8772D525197517D3007EBB92 /* Build configuration list for PBXLegacyTarget "Nexcess PDU Config" */;
 			buildPhases = (
 			);
-			buildToolPath = /usr/local/python;
+			buildToolPath = /usr/bin/python;
+			buildWorkingDirectory = "";
 			dependencies = (
 			);
 			name = "Nexcess PDU Config";
